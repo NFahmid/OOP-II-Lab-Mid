@@ -1,6 +1,11 @@
 package Test;
 
+import IceCreamFlavour.MintChocolateChip;
+import Serving.WaffleCone;
 import Source.*;
+import IceCreamFlavour.ChocolateFudge;
+import Topping.FreshStrawberries;
+import Topping.Sprinkles;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

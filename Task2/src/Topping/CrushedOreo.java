@@ -1,8 +1,8 @@
-package Source;
+package Topping;
 
 public class CrushedOreo extends Topping {
     public CrushedOreo() {
-        super("Sprinkles", 0.30);
+        super("Crushed Oreo", 0.85);
     }
 }
 

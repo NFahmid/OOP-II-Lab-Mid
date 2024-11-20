@@ -1,5 +1,9 @@
 package Source;
 
+import IceCreamFlavour.IceCreamFlavor;
+import Serving.Serving;
+import Topping.Topping;
+
 import java.util.ArrayList;
 import java.util.List;
 

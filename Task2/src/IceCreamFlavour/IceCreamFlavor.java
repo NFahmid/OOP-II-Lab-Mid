@@ -1,4 +1,4 @@
-package Source;
+package IceCreamFlavour;
 
 public abstract class IceCreamFlavor {
     private String name;

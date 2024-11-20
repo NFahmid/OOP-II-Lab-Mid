@@ -1,8 +1,8 @@
-package Source;
+package Topping;
 
 public class FreshStrawberries extends Topping {
     public FreshStrawberries() {
-        super("Sprinkles", 0.30);
+        super("Fresh Strawberries", 1.00);
     }
 }
 

@@ -1,7 +1,7 @@
-package Source;
+package IceCreamFlavour;
 
 public class ChocolateFudge extends IceCreamFlavor {
     public ChocolateFudge() {
-        super("Mint Chocolate Chip", 2.80);
+        super("ChocolateFudge", 3.00);
     }
 }

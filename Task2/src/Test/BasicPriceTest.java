@@ -1,6 +1,14 @@
 package Test;
 
+import IceCreamFlavour.IceCreamFlavor;
+import IceCreamFlavour.MintChocolateChip;
+import Serving.Serving;
+import Serving.WaffleCone;
 import Source.*;
+import IceCreamFlavour.ChocolateFudge;
+import Topping.CrushedOreo;
+import Topping.Sprinkles;
+import Topping.Topping;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
@@ -16,7 +24,7 @@ public class BasicPriceTest {
 
         BasicPricing basicPricing = new BasicPricing();
         double subtotal = basicPricing.calculateSubtotal(scoops, toppings, serving);
-        assertEquals(11.2, subtotal, 0.01);
+        assertEquals(11.95, subtotal, 0.01);
     }
 
     @Test
@@ -36,13 +44,13 @@ public class BasicPriceTest {
         String invoice = basicPricing.generateInvoice(scoops, toppings, serving);
         String expectedInvoice = "Ice Cream Shop Invoice\n" +
                 "Mint Chocolate Chip - 1 scoop: $2.80\n" +
-                "Mint Chocolate Chip - 1 scoop: $2.80\n" +
+                "ChocolateFudge - 1 scoop: $3.00\n" +
                 "Sprinkles - 1 time: $0.30\n" +
-                "Sprinkles - 1 time: $0.30\n" +
+                "Crushed Oreo - 1 time: $0.85\n" +
                 "Serving: Waffle Cone - $5.00\n" +
-                "Subtotal: $11.20\n" +
-                "Tax: $0.90\n" +
-                "Total Amount Due: $12.10";
+                "Subtotal: $11.95\n" +
+                "Tax: $0.96\n" +
+                "Total Amount Due: $12.91";
         assertEquals(expectedInvoice, invoice);
     }
 }

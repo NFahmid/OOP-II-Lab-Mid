@@ -1,4 +1,4 @@
-package Source;
+package Serving;
 
 public class WaffleCone extends Serving {
     public WaffleCone() {

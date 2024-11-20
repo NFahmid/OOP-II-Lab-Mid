@@ -1,4 +1,4 @@
-package Source;
+package IceCreamFlavour;
 
 public class MintChocolateChip extends IceCreamFlavor {
     public MintChocolateChip() {

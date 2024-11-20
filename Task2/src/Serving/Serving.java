@@ -1,10 +1,10 @@
-package Source;
+package Serving;
 
-public abstract class Topping {
+public abstract class Serving {
     private String name;
     private double price;
 
-    public Topping(String name, double price) {
+    public Serving(String name, double price) {
         this.name = name;
         this.price = price;
     }
@@ -17,3 +17,4 @@ public abstract class Topping {
         return price;
     }
 }
+

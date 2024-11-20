@@ -1,8 +1,8 @@
-package Source;
+package IceCreamFlavour;
 
 public class StrawberrySwirl extends IceCreamFlavor {
     public StrawberrySwirl() {
-        super("Mint Chocolate Chip", 2.80);
+        super("Strawberry Swirl", 2.75);
     }
 }
 
