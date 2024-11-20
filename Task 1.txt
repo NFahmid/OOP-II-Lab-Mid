@@ -1,0 +1,38 @@
+
+Class: inventorySystem (line 41-72, 132-155, 170-198),  Long Method,  The methods does lot of work that could be divided into separate methods
+
+Class: inventorySystem,  Long Class,  The class is doing too much for itself, it can be separated into orderManager, productManager and reportGenerator
+
+class: inventorySystem(line 74-102), use of switch statement, uses switch statements which should be replaced by OCP
+
+class: inventorySystem(line 80-93), Magic Numbers, uses magic numbers
+
+class: inventoryStstem( methods for calculating inventory, warehouse and category values),  Duplicated code,  same logic found for calculating the values
+
+class: inventorySystem(line 140),  message chain,  a class is calling the function of other class
+
+class: inventorySystem(line 43-62), conditional complexity,  the code is made unncessaryily complex
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
